@@ -19,24 +19,31 @@ int main() {
   double bpSingle,areaSingle, priceSingle;
 
 //getting values for colonial house
+
   cout<<"Enter base price of Colonial: " <<endl;
   cin>>bpColon;
+  
   cout<<"Enter area of Colonial: "<<endl;
   cin>>areaColon;
+  
   priceColon = bpColon/areaColon;
 
 //getting values for Split entry house
 cout<<"Enter base price of Split-Entry: " <<endl;
 cin>>bpSplit;
+
 cout<<"Enter area of Split-Entry: "<<endl;
 cin>>areaSplit;
+
 priceSplit = bpSplit/areaSplit;
 
 //getting values for single floor house
 cout<<"Enter base price of Single floor: " <<endl;
 cin>>bpSingle;
+
 cout<<"Enter area of Single floor: "<<endl;
 cin>>areaSingle;
+
 priceSingle = bpSingle/areaSingle;
 
 //these statments check to see which house has the least price per foot and gives proper out put
